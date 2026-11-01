@@ -1,0 +1,25 @@
+{
+  "name": "gym-management-system",
+  "version": "1.0.0",
+  "description": "Production-grade MERN Stack Gym Management System with full academic SDLC & SE documentation",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "npm start --prefix server",
+    "server:dev": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "seed": "npm run seed --prefix server",
+    "test": "npm run test --prefix server",
+    "build": "npm run build --prefix client"
+  },
+  "keywords": [
+    "mern",
+    "gym-management-system",
+    "software-engineering",
+    "sdlc",
+    "srs",
+    "uml",
+    "rtm"
+  ],
+  "author": "SDLC Software Engineering Team",
+  "license": "MIT"
+}
